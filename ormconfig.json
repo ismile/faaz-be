@@ -1,0 +1,12 @@
+{
+  "type": "mysql",
+  "host": "localhost",
+  "port": 3306,
+  "username": "root",
+  "password": "12qwaszx",
+  "database": "faaz-be",
+  "entities": ["dist/**/*.entity{.ts,.js}"],
+  "synchronize": true,
+  "insecureAuth": true,
+  "logging": true
+}
