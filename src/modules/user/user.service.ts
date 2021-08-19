@@ -33,7 +33,6 @@ export class UserService {
   }
 
   async create(dto: UserDTO): Promise<UserDTO> {
-    console.log(dto, 'asd');
     const entity = await this.repository.save(dto.toEntity());
     return UserDTO.fromEntity(entity);
   }
