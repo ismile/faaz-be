@@ -1,9 +1,9 @@
 {
-  "type": "mysql",
+  "type": "postgres",
   "host": "localhost",
-  "port": 3306,
-  "username": "root",
-  "password": "12qwaszx",
+  "port": 5432,
+  "username": "postgres",
+  "password": "mysecretpassword",
   "database": "faaz-be",
   "entities": ["dist/**/*.entity{.ts,.js}"],
   "synchronize": true,
